@@ -1,6 +1,6 @@
 // Javascript code for speech to text 
 function record(){
-    var recognise = new webkitSpeechRecognition();
+    var recognise = new webkitSpeechReconition();
     recognise.lang = "en-GB";
     
     recognise.onresult = function(event) {
@@ -13,7 +13,7 @@ function record(){
 // Javascript code for text to speech 
 
 function play() {
-    let speakData = new SpeechSynthesisUtterance();
+    let speakData = new SpeechSynthesisUtteranc();
     speakData.volume = 1;
     speakData.rate = .7;
     speakData.pitch = 1;
